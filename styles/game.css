@@ -1,0 +1,22 @@
+.game {
+  display: grid;
+  grid-template-columns: 65px 66px 66px 66px 66px 66px 66px 66px 65px;
+  grid-template-rows: 65px 66px 66px 66px 66px 66px 66px 66px 65px;
+  width: 593px;
+  height: 593px;
+  border: 5px solid black;
+}
+
+.cell {
+  height: 64px;
+  width: 64px;
+  border: 1px solid black;
+}
+
+.row3, .row6 {
+  border-bottom: 5px solid black;
+}
+
+.cell3, .cell6 {
+  border-right: 5px solid black;
+}
